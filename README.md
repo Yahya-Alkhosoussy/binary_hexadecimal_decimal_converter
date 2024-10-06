@@ -1,8 +1,5 @@
 # binary_hexadecimal_decimal_converter
 
-## GUI:
-
-
 
 ## Backend functions:
 
