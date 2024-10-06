@@ -1,6 +1,3 @@
-mode = 0
-
-
 def decimal_to_binary(number):
 
     remainder_list = []
