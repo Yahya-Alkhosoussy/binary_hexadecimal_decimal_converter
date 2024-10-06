@@ -1,5 +1,5 @@
 import tkinter as tk
-import backend as back
+import backend as dhb
 from time import sleep as s
 
 # Create the main window
@@ -110,22 +110,22 @@ def put_label_and_text_area():
 def convert(convert):
 
     if convert == "1. decimal to binary conversion":
-        result1 = back.decimal_to_binary(int(entry.get()))
+        result1 = dhb.decimal_to_binary(int(entry.get()))
 
     elif convert == "2. decimal to hexadecimal conversion":
-        result1 = back.decimal_to_hexadecimal(int(entry.get()))
+        result1 = dhb.decimal_to_hexadecimal(int(entry.get()))
 
     elif convert == "3. binary to decimal conversion":
-        result1 = back.binary_to_decimal(int(entry.get()))
+        result1 = dhb.binary_to_decimal(int(entry.get()))
 
     elif convert == "4. hexadecimal to decimal conversion":
-        result1 = back.hexadecimal_to_decimal(entry.get())
+        result1 = dhb.hexadecimal_to_decimal(entry.get())
 
     elif convert == "5. hexadecimal to binary conversion":
-        result1 = back.hexadecimal_to_binary(entry.get())
+        result1 = dhb.hexadecimal_to_binary(entry.get())
 
     elif convert == "6. binary to hexadecimal conversion":
-        result1 = back.binary_to_hexadecimal(int(entry.get()))
+        result1 = dhb.binary_to_hexadecimal(int(entry.get()))
 
     result.config(text=f"Result: {result1}")
 
