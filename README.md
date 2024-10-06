@@ -37,3 +37,9 @@ Here is the possible explanation behind some of the code that may or may not be 
 - `hex` this is the dictionary that contains all the hexadecimal values and their decimal equivalent.
 
 - `hex_str` this is the string equivalent for the hexadecimal value given to the function to be split in the for loop
+
+### 4. Decimal_to_hexadecimal(number)
+
+- `hexadecimal_list` this is similar to the dictionary to the last function, but it uses an array this time, my main reasoning was to see if I can do it, no other reason.
+
+- `for i in range(len(hexadecimal_number) -1, -1, -1)` This for loop is similar to the one used in the decimal to binary function, and this is crucial for this as when I was testing the functions it returned the inverse of what was the value, for example A0 was shown as 0A, and 0A = A ≠ A0 due to the nature of these number systems, this is like saying 10 = 01 = 1 because it is the reverse, which is obviously not true.

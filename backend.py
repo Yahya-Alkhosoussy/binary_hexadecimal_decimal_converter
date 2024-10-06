@@ -67,3 +67,24 @@ def hexadecimal_to_decimal(number):
 
     return decimal_number
 
+def decimal_to_hexadecimal(number):
+
+    hexadecimal_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+
+    hexadecimal_number = ""
+
+    while number >= 1:
+
+        remainder = number % 16
+
+        hexadecimal_number += hexadecimal_list[remainder]
+
+        number = number // 16
+
+    result = ""
+
+    for i in range(len(hexadecimal_number) -1, -1, -1):
+
+        result += hexadecimal_number[i]
+
+    return result
