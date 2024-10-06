@@ -88,3 +88,19 @@ def decimal_to_hexadecimal(number):
         result += hexadecimal_number[i]
 
     return result
+
+def hexadecimal_to_binary(number):
+
+    num = hexadecimal_to_decimal(number)
+
+    result = decimal_to_binary(num)
+
+    return result
+
+def binary_to_hexadecimal(number):
+
+    num = binary_to_decimal(number)
+
+    result = decimal_to_hexadecimal(num)
+
+    return result
