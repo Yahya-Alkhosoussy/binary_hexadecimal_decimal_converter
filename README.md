@@ -24,3 +24,16 @@ Here is the possible explanation behind some of the code that may or may not be 
 
 3. the second `-1` this is also similar to the 1 in the first point, this is how i is incrememnted aka -1 is added to i every time it loops.
 
+### 2. binary_to_decimal(number)
+
+- `string` this variable is basically just transforming the number we get into a string so it can be later separated into individual digits
+
+- `num_list` this array is where all invdividual digits of binary go to be multiplied by their respective power of 2
+
+### 3. hexadecimal_to_decimal(number)
+
+**note: these were made hours apart so if they do not follow the same methods that is the reason, but they all work so does it really matter?**
+
+- `hex` this is the dictionary that contains all the hexadecimal values and their decimal equivalent.
+
+- `hex_str` this is the string equivalent for the hexadecimal value given to the function to be split in the for loop
