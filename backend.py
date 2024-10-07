@@ -101,3 +101,85 @@ def binary_to_hexadecimal(number):
     result = decimal_to_hexadecimal(num)
 
     return result
+
+
+def add_binary(number1, number2):
+
+    num_1 = binary_to_decimal(number1)
+
+    num_2 = binary_to_decimal(number2)
+
+    sum = num_1 + num_2
+
+    return decimal_to_binary(sum)
+
+def subtract_binary(number1, number2):
+
+    num_1 = binary_to_decimal(number1)
+
+    num_2 = binary_to_decimal(number2)
+
+    sum = num_1 - num_2
+
+    return decimal_to_binary(sum)
+
+def multiply_binary(number1, number2):
+
+    num_1 = binary_to_decimal(number1)
+
+    num_2 = binary_to_decimal(number2)
+
+    sum = num_1 * num_2
+
+    return decimal_to_binary(sum)
+
+def divide_binary(number1, number2):
+
+    num_1 = binary_to_decimal(number1)
+
+    num_2 = binary_to_decimal(number2)
+
+    sum = num_1 / num_2
+
+    return decimal_to_binary(sum)
+
+def add_hexadecimal(number1, number2):
+
+    num_1 = hexadecimal_to_decimal(number1)
+
+    num_2 = hexadecimal_to_decimal(number2)
+
+    sum = num_1 + num_2
+
+    return decimal_to_hexadecimal(sum)
+
+
+def subtract_hexadecimal(number1, number2):
+
+    num_1 = hexadecimal_to_decimal(number1)
+
+    num_2 = hexadecimal_to_decimal(number2)
+
+    sum = num_1 - num_2
+
+    return decimal_to_hexadecimal(sum)
+
+def multiply_hexadecimal(number1, number2):
+
+    num_1 = hexadecimal_to_decimal(number1)
+
+    num_2 = hexadecimal_to_decimal(number2)
+
+    sum = num_1 * num_2
+
+    return decimal_to_hexadecimal(sum)
+
+def divide_hexadecimal(number1, number2):
+
+    num_1 = hexadecimal_to_decimal(number1)
+
+    num_2 = hexadecimal_to_decimal(number2)
+
+    sum = num_1 / num_2
+
+    return decimal_to_hexadecimal(sum)
