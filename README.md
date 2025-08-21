@@ -13,7 +13,7 @@ Here is the possible explanation behind some of the code that may or may not be 
 
 - `remainder = number % 2` the modulus function is the function that divides the variable number by 2 and finds out if it has a remainder, if it does then it will return 1, if it doesn't then it will return 0
 
-- `for i in range(len(remainder_list) -1, -1, -1)`: there are a lot to unpack here so, new list:
+- `for i in range(len(remainder_list) -1, -1, -1)`:
 
 1. `len(remainder_list) -1` why subtract 1? well if 1 is not subtracted from it, it will start from an index that does not exist, normal *for* loops that may look like `for i in range(len(remainder_list))` which is basically the same as `for i in range(0, len(remainder_list), 1)` where 0 is the starting point, len(remainder_list) is the end point where it stops when it reaches that point and the variable i is incremented by 1. Using this logic, we can infer that using the maximum first is not a good idea as it stops 1 before that, so we need to subtract one from the maximum point to have similar results.
 
